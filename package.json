@@ -5,6 +5,9 @@
   "repository": "git@github.com:mala23/tyers-club.git",
   "author": "Colin Nico Schmid <mail@mala23.me>",
   "license": "MIT",
+  "engines": {
+    "node": "9.4.0"
+  },
   "scripts": {
     "build": "neutrino build",
     "start": "neutrino start",
