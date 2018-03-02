@@ -23,6 +23,7 @@
     "@neutrinojs/react": "^8.1.2"
   },
   "devDependencies": {
+    "react-dom": "^16.2.0",
     "@neutrinojs/react": "^8.1.2",
     "neutrino": "^8.1.2"
   }
