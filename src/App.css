@@ -16,6 +16,7 @@
 
 .app-title {
   font-size: 1.5rem;
+  font-family: "tornac";
 }
 
 .app-intro {
@@ -24,6 +25,8 @@
   font-size: 1.1rem;
   line-height: 1.6rem;
   letter-spacing: 0.01rem;
+  font-family: "objektiv-mk2";
+  font-weight: 300;
 }
 
 @keyframes App-logo-spin {
