@@ -1,8 +1,0 @@
-{
-  "name": "Tyers Club",
-  "description": "A smart Web App for fly tyers and fly fishermen.",
-  "repository": "https://github.com/mala23/tyers-club",
-  "logo": "https://cdn.rawgit.com/mala23/tyers-club/develop/images/tyersclub_logo.png",
-  "keywords": ["node", "react", "neutrino", "heroku"],
-  "image": "heroku/nodejs"
-}
