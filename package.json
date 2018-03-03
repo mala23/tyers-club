@@ -12,7 +12,8 @@
   "scripts": {
     "build": "neutrino build",
     "start": "neutrino start",
-    "heroku-postbuild": "neutrino build"
+    "heroku-postinstall": "neutrino build",
+    "heroku-postbuild": "yarn start"
   },
   "dependencies": {
     "prop-types": "^15.6.1",
