@@ -11,6 +11,9 @@ class Clap extends Component {
 
   add = () => {
     console.log('click')
+    this.setState({
+      count: this.state.count + 1,
+    })
   }
 
   render() {
