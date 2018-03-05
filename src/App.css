@@ -10,8 +10,16 @@
   text-align: center;
   background-color: hsl(0, 0%, 20%);
   height: 30vh;
-  padding: 1rem;
+  padding: 1rem 0;
   color: hsl(0, 0%, 100%);
+}
+
+.app-header::after {
+  content: "";
+  display: inline-block;
+  background-image: url("https://s3-eu-west-1.amazonaws.com/tyersclub/images/coloursbar.svg");
+  width: 100vw;
+  height: .5rem;
 }
 
 .app-title {
