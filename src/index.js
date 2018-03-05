@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 import WebFont from 'webfontloader'
+import App from './components/App';
+import './index.css'
 
 WebFont.load({
   typekit: {

@@ -1,0 +1,21 @@
+.clap-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  font-family: "objektiv-mk3";
+  text-align: center;
+}
+
+button {
+  font-family: "objektiv-mk3";
+  font-size: 1rem;
+  background-color: hsl(52, 26%, 56%);
+  border: none;
+  color: white;
+  padding: 1rem 2rem;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
