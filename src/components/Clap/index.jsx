@@ -9,12 +9,16 @@ class Clap extends Component {
     }
   }
 
+  add = () => {
+    console.log('click')
+  }
+
   render() {
     return (
       <article className={styles.text}>
         <p>{this.state.count}</p>
         <section className="clap-buttons">
-          <button>Clap</button>
+          <button onClick={this.add}>Clap</button>
         </section>
       </article>
     )
