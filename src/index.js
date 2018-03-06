@@ -1,8 +1,9 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import registerServiceWorker from './registerServiceWorker';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import registerServiceWorker from './registerServiceWorker'
+import { BrowserRouter as Router } from 'react-router-dom'
 import WebFont from 'webfontloader'
-import App from './components/App';
+import App from './components/App'
 import './index.css'
 
 WebFont.load({
@@ -11,5 +12,9 @@ WebFont.load({
   }
 })
 
-ReactDOM.render(<App />, document.getElementById('root'));
-registerServiceWorker();
+ReactDOM.render((
+  <Router>
+    <App />
+  </Router>
+), document.getElementById('root'))
+registerServiceWorker()
