@@ -1,0 +1,41 @@
+.bottomNav {
+}
+
+.bottomNav-list {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  position: fixed;
+  left: 0;
+  bottom: 0.8vw;
+  padding: 0;
+  margin: 0;
+}
+
+.bottomNav-item {
+  height: 3.5rem;
+  width: 49.8vw;
+  background-color: hsl(0, 0%, 20%); 
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.bottomNav-item:hover {
+  background-color: hsl(0, 0%, 40%); 
+}
+
+.bottomNav-item:active {
+  background-color: hsl(0, 0%, 40%); 
+}
+
+.bottomNav-item a {
+  color: #FFF;
+  text-decoration: none;
+  font-family: "objektiv-mk2";
+  font-weight: 300;
+  letter-spacing: .03rem;
+}

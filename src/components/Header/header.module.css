@@ -17,6 +17,8 @@
   height: 3.5rem;
   display: flex;
   align-items: center;
+  text-decoration: none;
+  color: #FFF;
 }
 
 .header-logo {
