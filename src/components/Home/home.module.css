@@ -1,29 +1,3 @@
-.app-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 5rem;
-}
-
-.app-header {
-  text-align: center;
-  background-color: hsl(0, 0%, 20%);
-  height: 30vh;
-  padding: 1rem 0;
-  color: hsl(0, 0%, 100%);
-}
-
-.app-header::after {
-  content: "";
-  display: inline-block;
-  background-image: url("https://s3-eu-west-1.amazonaws.com/tyersclub/images/coloursbar.svg");
-  width: 100vw;
-  height: .5rem;
-}
-
-.app-title {
-  font-size: 1.5rem;
-  font-family: "tornac";
-}
-
 .app-intro {
   margin: 1rem;
   text-align: left;
