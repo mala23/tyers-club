@@ -23,6 +23,7 @@ class Clap extends Component {
         <section className="clap-buttons">
           <button onClick={this.add}>Clap</button>
         </section>
+        <p>Applause is a designers pay.</p>
       </article>
     )
   }
