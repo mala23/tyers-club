@@ -1,4 +1,4 @@
-article {
+.clap {
   margin: 2rem 0;
 }
 
@@ -7,12 +7,19 @@ article {
   justify-content: center;
 }
 
-p {
+.clap-count {
   font-family: "objektiv-mk3";
   text-align: center;
 }
 
-button {
+.clap-text {
+  font-family: "objektiv-mk3";
+  font-weight: "300";
+  text-align: center;
+  letter-spacing: .03rem;
+}
+
+.clap-button {
   font-family: "objektiv-mk3";
   font-size: 1rem;
   background-color: hsl(52, 26%, 56%);

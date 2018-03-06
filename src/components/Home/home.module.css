@@ -1,14 +1,9 @@
-.app-intro {
-  margin: 1rem;
+.home-intro {
+  margin: 3rem .5rem;
   text-align: left;
   font-size: 1.1rem;
   line-height: 1.6rem;
   letter-spacing: 0.01rem;
   font-family: "objektiv-mk2";
   font-weight: 300;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
 }

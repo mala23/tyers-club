@@ -5,10 +5,10 @@ import logo from '../../logo.svg'
 class Header extends Component {
   render() {
     return (
-      <header className={styles.text}>
-        <section>
-          <img src={logo} className="app-logo" alt="Tyers Club Logo" />
-          <h1 className="app-title">Tyers Club</h1>
+      <header className='header'>
+        <section className='header-section'>
+          <img src={ logo } className='header-logo' alt="Tyers Club Logo" />
+          <h1 className='header-title'>Tyers Club</h1>
         </section>
       </header>
     )

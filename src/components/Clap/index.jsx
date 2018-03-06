@@ -18,13 +18,13 @@ class Clap extends Component {
 
   render() {
     return (
-      <article className={styles.text}>
-        <p>{this.state.count}</p>
-        <section className="clap-buttons">
-          <button onClick={this.add}>Clap</button>
+      <section className='clap'>
+        <p className='clap-count'>{ this.state.count }</p>
+        <section className='clap-buttons'>
+          <button onClick={ this.add } className='clap-button'>Clap</button>
         </section>
-        <p>Applause is a designers pay.</p>
-      </article>
+        <p className='clap-text'>Applause is a designers pay.</p>
+      </section>
     )
   }
 }
