@@ -55,6 +55,7 @@ class CreatePattern extends Component {
             <input id="wingcase" type="text" name="wingcase" />
           </fieldset>
         </section>
+        <Submit />
       </form>
     )
   }
