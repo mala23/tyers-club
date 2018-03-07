@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import styles from './createpattern.module.css'
+import Submit from '../Submit'
 
 class CreatePattern extends Component {
   render() {
@@ -55,7 +56,7 @@ class CreatePattern extends Component {
             <input id="wingcase" type="text" name="wingcase" />
           </fieldset>
         </section>
-        <Submit />
+        <Submit submitText={"Create Pattern"} />
       </form>
     )
   }
