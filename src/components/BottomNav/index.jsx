@@ -7,8 +7,12 @@ class BottomNav extends Component {
     return (
       <nav className='bottomNav'>
         <ul className='bottomNav-list'>
-          <li id='patterns' className='bottomNav-item'><Link to="/patterns">Patterns</Link></li>
-          <li id='inventory' className='bottomNav-item'><Link to="/inventory">Inventory</Link></li>
+          <Link className='bottomNav-link' to="/patterns">
+            <li id='patterns' className='bottomNav-item'>Patterns</li>
+          </Link>
+          <Link className='bottomNav-link' to="/inventory">
+            <li id='inventory' className='bottomNav-item'>Inventory</li>
+          </Link>
         </ul>
       </nav>
     )

@@ -12,16 +12,22 @@
   margin: 0;
 }
 
+.bottomNav-link {
+  text-decoration: none;
+}
+
 .bottomNav-item {
   height: 3.5rem;
   width: 49.8vw;
   background-color: hsl(0, 0%, 20%); 
-  text-decoration: none;
   list-style: none;
   display: flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  color: #FFF;
+  font-family: "objektiv-mk3";
+  font-weight: 300;
 }
 
 .bottomNav-item:hover {
