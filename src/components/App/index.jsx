@@ -6,6 +6,7 @@ import Home from '../Home'
 import Patterns from '../Patterns'
 import CreatePattern from '../CreatePattern'
 import Inventory from '../Inventory'
+import Pattern from '../Pattern'
 
 class App extends Component {
   render() {
@@ -16,6 +17,7 @@ class App extends Component {
         <Route exact path='/patterns' component={Patterns} />
         <Route exact path='/patterns/create' component={CreatePattern} />
         <Route exact path='/inventory' component={Inventory} />
+        <Route exact path='/pattern' component={Pattern} />
         <BottomNav />
       </section>
     )
